@@ -3,31 +3,17 @@
 ## Name: Josiah Benitez
 ## Course: SEP12
 ## Period: 7
-## Concept: Unit 4
+## Concept: Unit 5
 
 ### Overview
 
-In this Unit we learned about concepts similar to the ones we already knew from javascript such as while loops and for loops. We also learned about loops inside of a loop which is a nested loop. I had gotten two questions wrong on the exam for this unit and in this writeup I will be going over the mistakes I made and why I did.
+In this Unit we learned about different types of methods and also constructors. We also had lessons about Primitive vs Class and how they interact as parameters.
 ## First Challenge
-### For Loops Blunder
+### Constructor Challenge
 
-On question 18 I made the mistake of missing the fact that the characters are being appended in reverse order, my answer was correct except for that one part of the characters having to be in reverse order. This is the prompt:
-  
-```java
-    String str = "result";
-String result = "";
-for (int i = 0; i < str.length(); i++) 
-{
-  int index = (i + 3) % str.length();
-  result = str.substring(index, index + 1) + result;
-}
-```
-What is stored by the string result after this code segment has been executed?
-
-I selected the answer "ultres" but the actual answer was "sertlu" which is my answer but reversed. This was an easily avoidable mistake that couldve been averted by reading the code closer instead of jumping to conclusions and on impulse. One thing I also picked up is my lack of speed with determining outcomes when mod is involved. I am good with the other common things like multiplication, division, addition, subtraction. Mod always seems to take me more time to get the value after using it.
+On the Unit 5 exam I got question 9 wrong because I didnt realize that the answer I had picked would cause the constructor to continuosly call itself because there are no other constructors that take two string parameters. I picked this `this(name, ssn);`
 
 
- 
 ## Second Challenge
 ### Short Circuit Evaluation 
 
