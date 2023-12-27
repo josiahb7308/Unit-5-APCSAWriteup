@@ -11,7 +11,11 @@ In this Unit we learned about different types of methods and also constructors. 
 ## First Challenge
 ### Constructor Challenge
 
-On the Unit 5 exam I got question 9 wrong because I didnt realize that the answer I had picked would cause the constructor to continuosly call itself because there are no other constructors that take two string parameters. I picked this `this(name, ssn);`
+On the Unit 5 exam I got question 9 wrong because I didnt realize that the answer I had picked would cause the constructor to continuosly call itself because there are no other constructors that take two string parameters. I picked this choice `this(name, ssn);` because I made the mistake of not realizing that this was the only constructor that took in two strings as parameters. The correct answer was 
+```java
+name = n;
+ssn = s;
+```
 
 
 ## Second Challenge
