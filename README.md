@@ -45,11 +45,32 @@ public String closeEnough(int score)
     return “F”;
   }
 ```
-
+The correct answer that I originally picked was that a score of 70 would cause the procedure to not work as expected because it would return a D instead of the C that it should actually return. 
 
 
 ## Third Challenge
-### 
+### Compile-time 
+
+For this challenge I got one of the two choices correct but I was stuck for the other part of the answer so I ended with the wrong answer. The code being looked at is the following:
+```java
+public class MyClass 
+{
+   public MyClass()
+   {
+     /* Implementation not shown */
+   }
+   public MyClass(int arg1) 
+   {
+     /* implementation not shown */
+   }
+   public MyClass(String arg1, int arg2) 
+   {
+     /* implementation not shown */
+   }
+}
+```
+I chose answer 3 which is correct and answer 2 which is wrong, here is why answer 2 is wrong. The constructor in 2 has a parameter which is of a String type, followed by a parameter which is an int. 
+
 
 
 ### Takeaways
