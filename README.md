@@ -69,12 +69,12 @@ public class MyClass
    }
 }
 ```
-I chose answer 3 which is correct and answer 2 which is wrong, here is why answer 2 is wrong. The constructor in 2 has a parameter which is of a String type, followed by a parameter which is an int. 
+I chose answer 3 which is correct and answer 2 which is wrong, here is why answer 2 is wrong. The constructor in 2 has a parameter which is of a String type, followed by a parameter which is an int. This is the same as a public constructor that is already included so this constructor cant be added to the class. 
 
 
 
 ### Takeaways
 
 * When dealing with constructors pay close attention to the type of parameters they require and if there are any other constructors taking in the same parameters. This stems from my first challenge where I answered a question wrong because I didnt do this well.
-* Short circuit evaluation is a great way to see the outcome of booleans without having to go through each outcome of the boolean.
-* Look over every part of loops when you are trying to find the value of it or its ability to replace other code because one different "-" symbol or anything can make it wrong. I saw this on my mistake with the result string on question 18 and the for loop.
+* Look at what elements are public so you can adjust your parameters to not conflict with an already created constructor.
+* I also had a mistake here that was made because of me overthinking my previous answer so I need to be more confident in my answers.
